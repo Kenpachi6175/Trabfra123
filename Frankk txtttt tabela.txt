@@ -1,0 +1,21 @@
+CREATE TABLE campus(
+    nomecampus varchar(100) not null,
+    cep varchar (15) not null
+);
+
+CREATE TABLE curso (
+    nomecurso varchar(100) not null,
+    nota varchar(100),
+    areacurso varchar(100),
+    campuscurso varchar(100)
+
+);
+CREATE TABLE area (
+    nomearea varchar(100) not null,
+    area varchar(100)
+);
+
+CREATE TABLE pessoa(
+email varchar(100) not null
+senha varchar (100) not null
+);
